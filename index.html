@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "/build/@three/three.module.js",
+                "three/addons/": "/build/@three/jsm/"
+            }
+        }
+    </script>
+    <script src="./build/perlin/perlin.js"></script>
+    <script src="./build/App/main.js" type="module" defer></script>
+    <title>Three.js - Audio visualizer + Perlin Noise</title>
+</head>
+<body>
+    <div id="mask">
+        <button type="button" id="play">PLAY</button>
+    </div>
+</body>
+</html>
